@@ -1,0 +1,181 @@
+.container{
+        display: grid;
+        height: 100%;
+        place-items: center;
+        text-align: center;
+    }
+    
+    .container .wrapper{
+        position: relative;
+        height:300px;
+        width: 300px;
+        border-radius: 10px;
+        background: #fff;
+        border: 2px dashed #c2cdda;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .wrapper.active{
+        border: none;
+      }
+    
+    .wrapper .image{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .wrapper .icon{
+        font-size: 50px;
+        color: blue;
+    }
+    .wrapper .text{
+        font-size: 16px;
+        font-weight: 500;
+        color: blue;
+    }
+    .wrapper #cancel-btn{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        font-size: 20px;
+        cursor: pointer;
+        color: blue;
+        display: none;
+    }
+    .wrapper.active:hover #cancel-btn i{
+        display: block;
+      }
+      .wrapper #cancel-btn i:hover{
+        color: #e74c3c;
+      }
+
+    .wrapper .file-name{
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        padding: 8px 0;
+        font-size: 16px;
+        bottom: 0px;
+        display: none;
+        background: linear-gradient(90deg, rgba(9,0,170,1) 0%, rgba(62,75,242,1) 0%, rgba(48,245,243,1) 0%, rgba(0,108,255,1) 47%, rgba(59,241,230,1) 100%, rgba(68,68,255,1) 100%);    
+    }
+    .wrapper.active:hover .file-name{
+        display: block;
+      }
+
+    .container #custom-btn{
+        margin-top: 30px;
+        width: 20%;
+        height: 35px;
+        display: block;
+        outline: none;
+        border-width: thin;
+        border-radius: 25px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .container .form-group{
+        text-align: center;
+        place-items: center;
+        justify-content: center;
+    
+      }
+
+      .profile-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:2rem;
+        min-height: 100vh;
+     }
+     
+     .profile-container .profile{
+        width: 40rem;
+        border-radius: .5rem;
+        background-color: var(--white);
+        padding:2rem;
+        text-align: center;
+     }
+     
+     .profile-container .profile img{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: .5rem;
+     }
+     
+     .profile-container .profile h3{
+        font-size: 2.5rem;
+        padding:.5rem 0;
+        color:var(--white);
+     }
+     
+     .update-profile-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:2rem;
+        min-height: 100vh;
+     }
+     
+     .update-profile-container form{
+        width: 10rem;
+        border-radius: .5rem;
+        background-color: var(--black);
+        padding:2rem;
+        text-align: center;
+     }
+     
+     .update-profile-container form .flex{
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     }
+     
+     .update-profile-container form .flex .inputBox{
+        width: 50%;
+     }
+     
+     .update-profile-container form img{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+     }
+     
+     .update-profile-container form .flex .inputBox span{
+        font-size: 2rem;
+        color:var(--light-color);
+        display: block;
+        padding-top: 1rem;
+     }
+     
+     .update-profile-container form .flex .inputBox .box{
+        width: 100%;
+        padding:1.2rem 1.4rem;
+        border-radius: .5rem;
+        font-size: 1.8rem;
+        color:var(--white);
+        margin:1rem 0;
+        background-color: var(--light-bg);
+     }
+     
+     
+
+  

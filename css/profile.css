@@ -1,0 +1,83 @@
+
+      .profile-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:2rem;
+        min-height: 100vh;
+     }
+     
+     .profile-container .profile{
+        width: 40rem;
+        border-radius: .5rem;
+        background-color: var(--white);
+        padding:2rem;
+        text-align: center;
+     }
+     
+     .profile-container .profile img{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: .5rem;
+     }
+     
+     .profile-container .profile h3{
+        font-size: 2.5rem;
+        padding:.5rem 0;
+        color:var(--white);
+     }
+     
+     .update-profile-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:2rem;
+        min-height: 100vh;
+     }
+     
+     .update-profile-container form{
+        width: 10rem;
+        border-radius: .5rem;
+        background-color: var(--black);
+        padding:2rem;
+        text-align: center;
+     }
+     
+     .update-profile-container form .flex{
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     }
+     
+     .update-profile-container form .flex .inputBox{
+        width: 50%;
+     }
+     
+     .update-profile-container form img{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+     }
+     
+     .update-profile-container form .flex .inputBox span{
+        font-size: 2rem;
+        color:var(--light-color);
+        display: block;
+        padding-top: 1rem;
+     }
+     
+     .update-profile-container form .flex .inputBox .box{
+        width: 100%;
+        padding:1.2rem 1.4rem;
+        border-radius: .5rem;
+        font-size: 1.8rem;
+        color:var(--white);
+        margin:1rem 0;
+        background-color: var(--light-bg);
+     }
+     
+     

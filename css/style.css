@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+:root{
+   --blue:#0097e6;
+   --orange:#f39c12;
+   --red:#e74c3c;
+   --white:rgb(251, 248, 248);
+   --light-color:rgb(245, 243, 243);
+   --light-gray:rgb(159, 157, 157);
+   --black:#222;
+   --light-bg:#333;
+}
+
+*{
+   font-family: 'Nunito', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+*::-webkit-scrollbar{
+   height: 5px;
+   width:10px;
+}
+
+*::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+   background-color: var(--blue);
+}
+
+
+h1{
+  font-size: 16pt;
+}
+
+.btn,
+.delete-btn,
+.option-btn{
+   display: block;
+   width: 100%;
+   border-radius: .5rem;
+   color:var(--white);
+   font-size: 1rem;
+   cursor: pointer;
+   padding:1rem 1rem;
+   text-transform: capitalize;
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.btn{
+   background-color: var(--blue);
+}
+
+.delete-btn{
+   background-color: var(--red);
+}
+
+.option-btn{
+   background-color: var(--orange);
+}
+
+
+.flex-btn{
+   display: flex;
+   flex-wrap: wrap;
+   gap:1rem;
+}
+
+.flex-btn > *{
+   flex:1;
+}
+
+.form-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:2rem;
+   min-height: 100vh;
+}
+
+.form-container form{
+   width: 50rem;
+   border-radius: .5rem;
+   background-color: var(--black);
+   padding:2rem;
+   text-align: center;
+}
+
+.form-container form h3{
+   font-size: 1rem;
+   margin-bottom: 1rem;
+   color:var(--white);
+   text-transform: uppercase;
+}
+
+.form-container form .box{
+   width: 50%;
+   border-radius: .5rem;
+   padding:1.2rem 1.4rem;
+   font-size: 1rem;
+   color:var(--white);
+   background-color: var(--light-bg);
+   margin:1rem 0;
+}
+
+.form-container form p{
+   font-size: 1rem;
+   color:var(--light-color);
+   padding:1rem 0;
+}
+
+.form-container form p a{
+   color:var(--red);
+}
+
+.form-container form p a:hover{
+   text-decoration: underline;
+}
+
+.profile-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:2rem;
+   min-height: 100vh;
+}
+
+.profile-container .profile{
+   width: 40rem;
+   border-radius: .5rem;
+   background-color: var(--black);
+   padding:2rem;
+   text-align: center;
+}
+
+.profile-container .profile img{
+   height: 20rem;
+   width: 20rem;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: .5rem;
+}
+
+.profile-container .profile h3{
+   font-size: 1rem;
+   padding:.5rem 0;
+   color:var(--white);
+}
+
+.update-profile-container{
+  font-size: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:3rem;
+   min-height: 50vh;
+}
+
+.update-profile-container form{
+   width: 50rem;
+   border-radius: .5rem;
+   background-color: var(--white);
+   padding:2rem;
+   text-align: center;
+}
+
+.update-profile-container form .flex{
+   text-align: left;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+
+.update-profile-container form .flex .inputBox{
+   width: 49%;
+}
+
+.update-profile-container form img{
+   height: 15rem;
+   width: 15rem;
+   border-radius: 10%;
+   margin-bottom: 1rem;
+}
+
+.update-profile-container form .flex .inputBox span{
+   font-size: 1.125rem;
+   color:var(--light-gray);
+   display: block;
+   padding-top: 1rem;
+}
+
+.update-profile-container form .flex .inputBox .box{
+   width: 100%;
+   padding:1.2rem 1.4rem;
+   border-radius: .5rem;
+   font-size: 1rem;
+   color:var(--black);
+   margin:1rem 0;
+   background-color: var(--light-color);
+}
+
+
+
+
+
+
+
+
+
